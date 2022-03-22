@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:id="@+id/r"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="38dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0"
+        android:id="@+id/txtponto" />
+
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:id="@+id/btla"
+        android:onClick="btla"
+        android:background="@drawable/lavermelho"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:id="@+id/btsi"
+        android:onClick="btsi"
+        android:background="@drawable/siazul" />
+
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:id="@+id/btdo"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btdo"
+        android:background="@drawable/doverde" />
+
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:id="@+id/btsol"
+        android:onClick="btsol"
+        android:background="@drawable/solamarelo" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom"
+        android:background="@drawable/publicar"
+        android:onClick="btPublicarSon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nesse jogo, você deve apertar os botões na sequencia em que será tocado os sons"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pontuação"
+        android:id="@+id/textView5"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogar!"
+        android:id="@+id/btjogar"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final"
+        android:id="@+id/btfinal"
+        android:layout_gravity="right"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/btvoltar"
+        android:layout_gravity="right" />
+</LinearLayout>

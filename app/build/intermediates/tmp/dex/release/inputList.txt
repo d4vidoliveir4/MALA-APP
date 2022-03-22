@@ -1,0 +1,5 @@
+C:\Users\Caique\Desktop\MALA APP17052015_arrumado\MALA APP\app\build\intermediates\classes\release
+C:\Users\Caique\Desktop\MALA APP17052015_arrumado\MALA APP\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-7ec8497ebed21b04de9d496856a7b117dcf3c65d.jar
+C:\Users\Caique\Desktop\MALA APP17052015_arrumado\MALA APP\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-e22c07e74713d496e4d65109e5f0ada401eae7b0.jar
+C:\Users\Caique\Desktop\MALA APP17052015_arrumado\MALA APP\app\build\intermediates\pre-dexed\release\classes-7fd369466dd8b1a6d098fb24790bfc2236c8a0b0.jar
+C:\Users\Caique\Desktop\MALA APP17052015_arrumado\MALA APP\app\build\intermediates\pre-dexed\release\classes-c8619da730da30cdbb51172f03df504c913a8af3.jar

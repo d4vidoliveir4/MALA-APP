@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">M.A.L.A App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_exerc">Exercicios</string>
+    <string name="title_activity_memoria_curta">Memoria Curta</string>
+    <string name="lblnumeros">0000000</string>
+    <string name="title_activity_acelerometro">Agilidade e Atenção</string>
+    <string name="title_activity_salvo">Salvo</string>
+    <string name="title_activity_agilidade_atencao">Agilidade e Atencao</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_logica_matematica">Lógica Matemática</string>
+    <string name="title_activity_nao_salvo">NaoSalvo</string>
+    <string name="title_activity_jogomemoria1">Jogo da Memoria</string>
+    <string name="title_activity_jogomemoria2">Jogo da Memoria</string>
+    <string name="title_activity_jogomemoria3">Jogo da Memoria</string>
+    <string name="title_activity_num_cresc">Números Crescente</string>
+    <string name="title_activity_cores">Cores Erradas</string>
+    <string name="title_activity_jogo_sumiu2">JogoSumiu2</string>
+    <string name="title_activity_jogo_maior">JogoMaior</string>
+    <string name="title_activity_jogo_pergunta">JogoPergunta</string>
+    <string name="title_activity_jogo_pergunta_logica">JogoPerguntaLogica</string>
+    <string name="title_activity_menu_menor7">MenuMenor7</string>
+    <string name="title_activity_vranking">VRanking</string>
+</resources>

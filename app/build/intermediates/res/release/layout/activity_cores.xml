@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.fatec.shewbaca.Cores">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="New Button"
+        android:id="@+id/btCor1"
+        android:onClick="btCorr1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="New Button"
+        android:id="@+id/btCor2"
+        android:onClick="btCorr2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:text="Neste jogo você deverá escolher o botão no qual a cor não corresponde ao texto. Tente ser rapido, seu tempo será contado."
+        android:id="@+id/txtCores"
+        android:layout_alignTop="@+id/btCor1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btPublicarCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="btPublicar"
+        android:text="Publicar\nResultado"
+        android:background="@color/verdeEscuro"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/btIniciarCor"
+        android:layout_toRightOf="@+id/txtCores"
+        android:layout_toEndOf="@+id/txtCores" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:id="@+id/btIniciarCor"
+        android:onClick="btIniciar"
+        android:layout_alignBottom="@+id/txtCores"
+        android:layout_toLeftOf="@+id/txtCores"
+        android:layout_toStartOf="@+id/txtCores" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_above="@+id/btPublicarCor"
+        android:layout_alignRight="@+id/btPublicarCor"
+        android:layout_alignEnd="@+id/btPublicarCor" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Caique/Desktop/MALA%20APP17052015_arrumado/MALA%20APP/app/src/main/res/layout/activity_cores.xml -->

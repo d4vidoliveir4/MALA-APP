@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatec.shewbaca"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fatec.shewbaca.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.MenuExercActivity"
+            android:label="@string/title_activity_menu_exerc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.MemoriaCurta"
+            android:label="@string/title_activity_memoria_curta"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Acelerometro"
+            android:label="@string/title_activity_acelerometro"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Salvo"
+            android:label="@string/title_activity_salvo"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.AgilidadeAtencao"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_agilidade_atencao"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.LogicaMatematica"
+            android:label="@string/title_activity_logica_matematica"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.NaoSalvo"
+            android:label="@string/title_activity_nao_salvo"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Jogomemoria1"
+            android:label="@string/title_activity_jogomemoria1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Jogomemoria2"
+            android:label="@string/title_activity_jogomemoria2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Jogomemoria3"
+            android:label="@string/title_activity_jogomemoria3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.util.NumCresc"
+            android:label="@string/title_activity_num_cresc"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.JogoSons"
+            android:label="@string/title_activity_jogomemoria3"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.Cores"
+            android:label="@string/title_activity_cores"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.JogoSumiu2"
+            android:label="@string/title_activity_jogo_sumiu2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.JogoMaior"
+            android:label="@string/title_activity_jogo_maior" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.JogoPergunta"
+            android:label="@string/title_activity_jogo_pergunta" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.JogoPerguntaLogica"
+            android:label="@string/title_activity_jogo_pergunta_logica" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.MenuMenor7"
+            android:label="@string/title_activity_menu_menor7" >
+        </activity>
+        <activity
+            android:name="com.fatec.shewbaca.VRanking"
+            android:label="@string/title_activity_vranking" >
+        </activity>
+    </application>
+
+</manifest>

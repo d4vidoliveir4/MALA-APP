@@ -1,0 +1,5 @@
+E:\Desktop\MALA APP\app\build\intermediates\classes\debug
+E:\Desktop\MALA APP\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-2fd81f9a56c4b07f684e8cc38b8ed018ec024705.jar
+E:\Desktop\MALA APP\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-c01f4b8427cfd64f8dfd3a983f17516e817141bc.jar
+E:\Desktop\MALA APP\app\build\intermediates\pre-dexed\debug\classes-5951590ec1bad8b598337fce4ce0160affa311b4.jar
+E:\Desktop\MALA APP\app\build\intermediates\pre-dexed\debug\classes-29fa03adc0486ab49d4b4c82174b7b5f7a272e13.jar
